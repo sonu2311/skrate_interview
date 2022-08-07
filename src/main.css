@@ -251,25 +251,33 @@ color:#006666;
   height:30px;
   border-radius:50%;
 }
+
 .profile_name{
   font-size: 16px;
+}
+
+.profile_image2{
+  width:40px;
+  height:40px;
+  border-radius:50%;
 }
 
 .left_panel{
   border:solid red 1px; 
   box-sizing: border-box;
-  width:150px;
+  /* width:150px; */
 }
-.right_section{
+/* .right_section{
   width:calc(100% - 150px);
 
-}
+} */
 
 .overview_text{
   margin: 10px 30px;
-  font-size: 24px;
+  font-size: 30px;
   color: rgba(24,24,24,1);
-  font-weight: 500;
+  /* font-weight: 600; */
+  letter-spacing: 1px;
   
 }
 
@@ -279,7 +287,7 @@ color:#006666;
   box-sizing: border-box;
   font-size: 24px;
   font-weight: 550;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
 }
 
 .overview_element_count{
@@ -323,7 +331,7 @@ color:#006666;
 }
 
 .upcoming_session_color_div{
-  background-color: rgba(232,201,209,1); 
+  /* background-color: rgba(232,201,209,1);  */
   /* color:#fff; */
   margin-bottom: 0;
   font-weight: 400;
@@ -367,6 +375,33 @@ color:#006666;
 }
 
 
+
+
+.side_panel_icon{
+	color:rgba(24,24,24,1);
+  font-size: 30px;
+  padding:2px;
+  
+}
+.side_panel_element{
+	/*border:solid black 1px;*/
+	 padding: 15px 10px;
+   
+}
+.font16{
+  font-size: 16px;;
+}
+.side_panel_text{
+	font-size: 20px; 
+  padding:6px 7px; 
+  color:rgba(24,24,24,1);
+  
+}
+.side_panel_element:hover{
+  background-color: #eee;
+  cursor: pointer;
+	
+}
 
 
 /* #24373e */

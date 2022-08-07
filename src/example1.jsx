@@ -4,55 +4,6 @@ import React from 'react';
 import {api} from './library';
 
 
-const d={
-  "full_name": "Average Joe",
-  "dashboard_stats": {
-    "profile_views": 50,
-    "mentorship_sessions": 5,
-    "jobs_applied": 3,
-    "skills_verified": 5
-  },
-  "upcoming_sessions": [
-    {
-      "mentor_name": "Himanshu",
-      "timings": "14.00 - 15.00",
-      "date": "15/12/21",
-      "session_type": "Mentorship"
-    },
-    {
-      "mentor_name": "Vedant",
-      "timings": "12.00 - 13.00",
-      "date": "16/12/21",
-      "session_type": "Review"
-    }
-  ],
-  "job_postings": [
-    {
-      "role": "Flutter Developer",
-      "organization_name": "Amazon",
-      "location": "Remote",
-      "date_posted": "12/12/2021"
-    },
-    {
-      "role": "React Developer",
-      "organization_name": "Facebook",
-      "location": "USA",
-      "date_posted": "11/12/2021"
-    },
-    {
-      "role": "C++ Developer",
-      "organization_name": "CodeNation",
-      "location": "Remote",
-      "date_posted": "10/12/2021"
-    },
-    {
-      "role": "Django Developer",
-      "organization_name": "Google",
-      "location": "Remote",
-      "date_posted": "10/12/2021"
-    }
-  ]
-}
 
 
 
